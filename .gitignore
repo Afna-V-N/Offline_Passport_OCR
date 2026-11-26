@@ -1,0 +1,30 @@
+# Python environments
+.venv/
+venv/
+.venv311/
+.venv311_backup/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Sensitive test data
+images/
+results/
+results_glare/
+results_tilt/
+test_glare/
+test_tilt/
+debug_mrz/
+debug_roi.jpg
+
+# Nested duplicate project
+Passport_OCR/
+
+# Environment and logs
+.env
+*.log
+
+# Editor settings
+.vscode/
+test_paddle.py
